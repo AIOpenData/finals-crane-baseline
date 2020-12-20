@@ -1,15 +1,15 @@
 # 电力人工智能数据竞赛决赛—液压吊车目标检测赛道
-以下为电力人工智能数据竞赛决赛-液压吊车目标检测赛道基准模型介绍。其中包含了智源联邦学习框架的简化版本（真实版本后期会以论文的形式发布）和基于YOLOv3模型完成的实验。  
+以下为电力人工智能数据竞赛决赛-液压吊车目标检测赛道基准模型介绍。其中包含了智源联邦学习框架的简化版本（真实版本后期会以论文的形式发布）和基于 [YOLOv3模型](https://github.com/eriklindernoren/PyTorch-YOLOv3) 完成的实验。  
 * 决赛和初赛的区别：
     * 联邦学习框架
         * 决赛升级了联邦学习通信框架，当前基于 [fastapi](https://github.com/tiangolo/fastapi) 和 [aiohttp](https://github.com/aio-libs/aiohttp) 的实现不仅提升了通信效率和安全，而且解决了超时问题
-        * 决赛联邦学习框架会启动差分隐私模块保护通信过程中模型参数隐私性
+        * 决赛联邦学习框架会启动 [差分隐私模块](https://github.com/pytorch/opacus) 保护通信过程中模型参数隐私性
     * 数据集
-        * 决赛数据集为国网电力真实场景的吊车图片（包含没有吊车的背景图），共计15000张
+        * [决赛数据集](https://open.baai.ac.cn/data-set-detail/MTI2NTE=/Njk=/true) 为国网电力真实场景的吊车图片（包含没有吊车的背景图），共计15000张
     * 选手权限
         * 决赛选手无法访问和接触决赛数据集
         * 决赛选手只能操作`contestant-server`（基于智源提供的`CPU`机器，每位选手提供一台），智源和国网电力操作`baai-client`和`sgcc-client`（基于智源提供的`GPU`机器，两个`client`处于不同的`GPU`机器，每个`client`提供一块`Tesla V100 32GB`），以完成真实场景的联邦学习
-        * 具体的`CPU`和`GPU`机器的登录访问方式待通知
+        * 决赛选手具体访问`CPU`和`GPU`机器的方式待通知
 * 选手流程：
     * 将新的联邦学习框架跟初赛的数据集和模型结合，于本地跑通整个流程
     * 在官网完成zip压缩文件的提交，主办方下载本日最后一次提交，于次日通知选手开始联邦学习
@@ -114,7 +114,7 @@ Python库环境：
 ```
 
 ## 下载地址
-* [决赛吊车数据集]()    
+* [决赛吊车数据集](https://open.baai.ac.cn/data-set-detail/MTI2NTI=/Njk=/true)    
     * 决赛选手不可访问决赛吊车数据集，此处给出统计信息说明（周一更新）
 * [yolov3预训练模型](http://dorc-data.ks3-cn-beijing.ksyun.com/2015682aasdf154asdfe5d5aq961fa6eg/weights_yolov3_pre_model/weights.tar.gz)  
     * 当前主要采用`weights`下面的`darknet53.conv.74`
@@ -148,7 +148,7 @@ Python库环境：
   `python main.py`
 
 ### 选手联邦学习服务端
-* 把下载好的[yolov3预训练模型](http://dorc-data.ks3-cn-beijing.ksyun.com/2015682aasdf154asdfe5d5aq961fa6eg/weights_yolov3_pre_model/weights.tar.gz)拷贝到`contestant-server/service/federated/weights`
+* 把下载好的 [yolov3预训练模型](http://dorc-data.ks3-cn-beijing.ksyun.com/2015682aasdf154asdfe5d5aq961fa6eg/weights_yolov3_pre_model/weights.tar.gz) 拷贝到`contestant-server/service/federated/weights`
 * 进入`contestant-server/config/finals_contest_crane_federal_conf`目录
   * 生成`yolov3`模型的`cfg`文件（先删除旧的`cfg`文件）  
   `bash create_finals_contest_crane_federal_model_conf.sh 1`
