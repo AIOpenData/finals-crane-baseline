@@ -61,18 +61,18 @@ def load_classes(path):
     """ loads class labels from path """
     json_data = load_json(path)
     names = []
-    for class_item in json_data['categories']:
-        if type(class_item['name']).__name__ == 'list':
-            names.append(class_item['name'][0])
+    for class_item in json_data["categories"]:
+        if type(class_item["name"]).__name__ == "list":
+            names.append(class_item["name"][0])
         else:
-            names.append(class_item['name'])
+            names.append(class_item["name"])
     return names
 
 
 def namelist(data):
     name_list = []
-    for image_item in data['images']:
-        name_list.append(image_item['file_name'])
+    for image_item in data["images"]:
+        name_list.append(image_item["file_name"])
     return name_list
 
 
@@ -267,7 +267,7 @@ def bbox_iou(box1, box2, x1y1x2y2=True):
 
 
 def non_max_suppression(prediction, conf_threshold=0.5, nms_threshold=0.4):
-    """ removes detections with lower object confidence score than 'conf_threshold'
+    """ removes detections with lower object confidence score than "conf_threshold"
         and performs Non-Maximum Suppression to further filter detections """
     # from (center x, center y, width, height) to (x1, y1, x2, y2)
     prediction[..., :4] = xywh2xyxy(prediction[..., :4])
@@ -379,21 +379,21 @@ def horisontal_flip(images, targets):
 
 def parse_model_config(path):
     """ parses the yolo-v3 layer configuration file and returns module definitions """
-    file = open(path, 'r')
-    lines = file.read().split('\n')
-    lines = [x for x in lines if x and not x.startswith('#')]
-    lines = [x.rstrip().lstrip() for x in lines]  # get rid of fringe whitespaces
-    module_defs = []
-    for line in lines:
-        if line.startswith('['):  # this marks the start of a new block
-            module_defs.append({})
-            module_defs[-1]['type'] = line[1:-1].rstrip()
-            if module_defs[-1]['type'] == 'convolutional':
-                module_defs[-1]['batch_normalize'] = 0
-        else:
-            key, value = line.split("=")
-            value = value.strip()
-            module_defs[-1][key.rstrip()] = value.strip()
+    with open(path, mode="r", encoding="utf-8") as file:
+        lines = file.read().split("\n")
+        lines = [x for x in lines if x and not x.startswith("#")]
+        lines = [x.rstrip().lstrip() for x in lines]  # get rid of fringe whitespaces
+        module_defs = []
+        for line in lines:
+            if line.startswith("["):  # this marks the start of a new block
+                module_defs.append({})
+                module_defs[-1]["type"] = line[1:-1].rstrip()
+                if module_defs[-1]["type"] == "convolutional":
+                    module_defs[-1]["batch_normalize"] = 0
+            else:
+                key, value = line.split("=")
+                value = value.strip()
+                module_defs[-1][key.rstrip()] = value.strip()
 
     return module_defs
 
@@ -401,12 +401,12 @@ def parse_model_config(path):
 def parse_data_config(path):
     """ parses the data configuration file """
     options = dict()
-    with open(path, 'r') as fp:
+    with open(path, model="r", encoding="utf-8") as fp:
         lines = fp.readlines()
     for line in lines:
         line = line.strip()
-        if line == '' or line.startswith('#'):
+        if line == "" or line.startswith("#"):
             continue
-        key, value = line.split('=')
+        key, value = line.split("=")
         options[key.strip()] = value.strip()
     return options
