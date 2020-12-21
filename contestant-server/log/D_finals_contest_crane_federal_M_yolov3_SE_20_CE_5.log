@@ -1,0 +1,408 @@
+2020-12-19 16:58:22.004 | INFO     | utils.tool_utils:timer:35 - Start executing step: call federated train size
+2020-12-19 16:58:22.007 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train_size
+2020-12-19 16:58:22.009 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train_size
+2020-12-19 16:58:22.014 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train_size, msg: request succeeded!, response has been already stored in memory!
+2020-12-19 16:58:22.015 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train_size, msg: request succeeded!, response has been already stored in memory!
+2020-12-19 16:58:22.015 | INFO     | __main__:call_federated_train_size:138 - before normalization: client_ratio_lst: [5251, 5219]
+2020-12-19 16:58:22.015 | INFO     | __main__:call_federated_train_size:141 - after normalization: client_ratio_lst: [0.5015281757402101, 0.49847182425978986]
+2020-12-19 16:58:22.015 | INFO     | utils.tool_utils:timer:39 - Finished executing step: call federated train size
+2020-12-19 16:58:22.016 | INFO     | utils.tool_utils:timer:48 - Step name: call federated train size; time cost: 0:00:00.011269
+
+2020-12-19 16:58:22.016 | INFO     | utils.tool_utils:timer:35 - Start executing step: call federated train
+2020-12-19 16:58:22.016 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 1/20
+2020-12-19 16:58:22.282 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-19 16:58:22.285 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-19 17:08:23.004 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-19 17:18:23.778 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-19 17:28:24.396 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-19 17:33:27.236 | INFO     | utils.tool_utils:timer:35 - Start executing step: call federated train size
+2020-12-19 17:33:27.241 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train_size
+2020-12-19 17:33:27.242 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train_size
+2020-12-19 17:33:27.247 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train_size, msg: request succeeded!, response has been already stored in memory!
+2020-12-19 17:33:27.247 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train_size, msg: request succeeded!, response has been already stored in memory!
+2020-12-19 17:33:27.247 | INFO     | __main__:call_federated_train_size:138 - before normalization: client_ratio_lst: [5251, 5219]
+2020-12-19 17:33:27.248 | INFO     | __main__:call_federated_train_size:141 - after normalization: client_ratio_lst: [0.5015281757402101, 0.49847182425978986]
+2020-12-19 17:33:27.248 | INFO     | utils.tool_utils:timer:39 - Finished executing step: call federated train size
+2020-12-19 17:33:27.248 | INFO     | utils.tool_utils:timer:48 - Step name: call federated train size; time cost: 0:00:00.012090
+
+2020-12-19 17:33:27.248 | INFO     | utils.tool_utils:timer:35 - Start executing step: call federated train
+2020-12-19 17:33:27.248 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 1/20
+2020-12-19 17:33:27.526 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-19 17:33:27.526 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-19 17:43:28.249 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-19 17:53:28.960 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-19 18:03:29.730 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-19 18:13:30.383 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-19 18:23:30.986 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-19 18:33:31.613 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-19 18:43:32.374 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-19 18:53:33.093 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-19 19:03:33.768 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-19 19:08:43.866 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-19 19:11:43.325 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-19 19:11:44.878 | INFO     | __main__:call_federated_train:181 - epoch   1, average loss 5.382
+2020-12-19 19:11:44.878 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 1/20
+2020-12-19 19:11:44.878 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 1/20; time cost: 1:38:17.629401
+
+2020-12-19 19:11:44.878 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 2/20
+2020-12-19 19:11:45.112 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-19 19:11:45.114 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-19 19:21:45.901 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-19 19:31:46.643 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-19 19:41:47.314 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-19 19:51:48.030 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-19 20:01:48.700 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-19 20:11:49.397 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-19 20:21:50.116 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-19 20:31:51.033 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-19 20:41:51.679 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-19 20:50:00.071 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-19 20:51:20.548 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-19 20:51:21.821 | INFO     | __main__:call_federated_train:181 - epoch   2, average loss 3.080
+2020-12-19 20:51:21.822 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 2/20
+2020-12-19 20:51:21.823 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 2/20; time cost: 1:39:36.944212
+
+2020-12-19 20:51:21.823 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 3/20
+2020-12-19 20:51:22.131 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-19 20:51:22.132 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-19 21:01:22.918 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-19 21:11:23.620 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-19 21:21:24.245 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-19 21:31:24.998 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-19 21:41:25.702 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-19 21:51:26.340 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-19 22:01:27.115 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-19 22:11:27.853 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-19 22:21:28.457 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-19 22:29:35.355 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-19 22:31:29.149 | INFO     | __main__:call_async_request:107 - async request for 6000 times, 100 minutes, not finished!
+2020-12-19 22:32:01.781 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-19 22:32:02.862 | INFO     | __main__:call_federated_train:181 - epoch   3, average loss 2.234
+2020-12-19 22:32:02.863 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 3/20
+2020-12-19 22:32:02.864 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 3/20; time cost: 1:40:41.040578
+
+2020-12-19 22:32:02.864 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 4/20
+2020-12-19 22:32:03.127 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-19 22:32:03.129 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-19 22:42:03.903 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-19 22:52:04.602 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-19 23:02:05.281 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-19 23:12:05.924 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-19 23:22:06.557 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-19 23:32:07.280 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-19 23:42:07.917 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-19 23:52:08.720 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 00:02:09.407 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 00:09:14.513 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 00:11:28.495 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 00:11:29.600 | INFO     | __main__:call_federated_train:181 - epoch   4, average loss 1.785
+2020-12-20 00:11:29.601 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 4/20
+2020-12-20 00:11:29.601 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 4/20; time cost: 1:39:26.737302
+
+2020-12-20 00:11:29.602 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 5/20
+2020-12-20 00:11:29.862 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 00:11:29.865 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 00:21:30.611 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 00:31:31.433 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 00:41:32.348 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 00:51:33.074 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 01:01:33.759 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 01:11:34.548 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 01:21:35.240 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 01:31:36.030 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 01:41:36.769 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 01:49:29.231 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 01:51:27.110 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 01:51:28.540 | INFO     | __main__:call_federated_train:181 - epoch   5, average loss 1.510
+2020-12-20 01:51:28.542 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 5/20
+2020-12-20 01:51:28.542 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 5/20; time cost: 1:39:58.940148
+
+2020-12-20 01:51:28.542 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 6/20
+2020-12-20 01:51:28.849 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 01:51:28.851 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 02:01:29.501 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 02:11:30.146 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 02:21:30.836 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 02:31:31.617 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 02:41:32.299 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 02:51:32.949 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 03:01:33.640 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 03:11:34.367 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 03:21:35.127 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 03:28:49.979 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 03:31:04.339 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 03:31:06.993 | INFO     | __main__:call_federated_train:181 - epoch   6, average loss 1.329
+2020-12-20 03:31:06.998 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 6/20
+2020-12-20 03:31:06.999 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 6/20; time cost: 1:39:38.455852
+
+2020-12-20 03:31:06.999 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 7/20
+2020-12-20 03:31:07.286 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 03:31:07.288 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 03:41:07.988 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 03:51:08.637 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 04:01:09.326 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 04:11:09.944 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 04:21:10.555 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 04:31:11.212 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 04:41:11.952 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 04:51:12.749 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 05:01:13.388 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 05:09:15.956 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 05:11:14.080 | INFO     | __main__:call_async_request:107 - async request for 6000 times, 100 minutes, not finished!
+2020-12-20 05:11:21.475 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 05:11:22.482 | INFO     | __main__:call_federated_train:181 - epoch   7, average loss 1.204
+2020-12-20 05:11:22.483 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 7/20
+2020-12-20 05:11:22.483 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 7/20; time cost: 1:40:15.484083
+
+2020-12-20 05:11:22.483 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 8/20
+2020-12-20 05:11:22.733 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 05:11:22.734 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 05:21:23.419 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 05:31:24.046 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 05:41:24.861 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 05:51:25.466 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 06:01:26.107 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 06:11:26.812 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 06:21:27.588 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 06:31:28.305 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 06:41:29.046 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 06:49:05.862 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 06:51:30.080 | INFO     | __main__:call_async_request:107 - async request for 6000 times, 100 minutes, not finished!
+2020-12-20 06:51:44.531 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 06:51:46.405 | INFO     | __main__:call_federated_train:181 - epoch   8, average loss 1.111
+2020-12-20 06:51:46.407 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 8/20
+2020-12-20 06:51:46.407 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 8/20; time cost: 1:40:23.923287
+
+2020-12-20 06:51:46.407 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 9/20
+2020-12-20 06:51:46.675 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 06:51:46.676 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 07:01:47.334 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 07:11:48.170 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 07:21:48.796 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 07:31:49.498 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 07:41:50.128 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 07:51:50.769 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 08:01:51.388 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 08:11:52.105 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 08:21:52.790 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 08:29:26.081 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 08:31:19.838 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 08:31:21.849 | INFO     | __main__:call_federated_train:181 - epoch   9, average loss 1.037
+2020-12-20 08:31:21.850 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 9/20
+2020-12-20 08:31:21.850 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 9/20; time cost: 1:39:35.442824
+
+2020-12-20 08:31:21.851 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 10/20
+2020-12-20 08:31:22.116 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 08:31:22.118 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 08:41:22.871 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 08:51:23.537 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 09:01:24.255 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 09:11:24.977 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 09:21:25.641 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 09:31:26.408 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 09:41:27.261 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 09:51:28.038 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 10:01:28.826 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 10:08:11.172 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 10:10:24.924 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 10:10:25.882 | INFO     | __main__:call_federated_train:181 - epoch  10, average loss 0.985
+2020-12-20 10:10:25.883 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 10/20
+2020-12-20 10:10:25.883 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 10/20; time cost: 1:39:04.032404
+
+2020-12-20 10:10:25.883 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 11/20
+2020-12-20 10:10:26.144 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 10:10:26.145 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 10:20:26.818 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 10:30:27.458 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 10:40:28.265 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 10:50:29.117 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 11:00:29.824 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 11:10:30.566 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 11:20:31.242 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 11:30:31.928 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 11:40:32.601 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 11:47:47.315 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 11:50:11.946 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 11:50:12.888 | INFO     | __main__:call_federated_train:181 - epoch  11, average loss 0.925
+2020-12-20 11:50:12.889 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 11/20
+2020-12-20 11:50:12.889 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 11/20; time cost: 1:39:47.005535
+
+2020-12-20 11:50:12.890 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 12/20
+2020-12-20 11:50:13.141 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 11:50:13.142 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 12:00:13.915 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 12:10:14.592 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 12:20:15.317 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 12:30:16.036 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 12:40:16.850 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 12:50:17.531 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 13:00:18.432 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 13:10:19.114 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 13:20:19.794 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 13:27:23.930 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 13:29:23.585 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 13:29:25.063 | INFO     | __main__:call_federated_train:181 - epoch  12, average loss 0.889
+2020-12-20 13:29:25.069 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 12/20
+2020-12-20 13:29:25.070 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 12/20; time cost: 1:39:12.179829
+
+2020-12-20 13:29:25.070 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 13/20
+2020-12-20 13:29:25.338 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 13:29:25.339 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 13:39:26.004 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 13:49:26.613 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 13:59:27.331 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 14:09:28.018 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 14:19:28.663 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 14:29:29.334 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 14:39:30.146 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 14:49:30.809 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 14:59:31.582 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 15:06:30.740 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 15:09:10.374 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 15:09:12.137 | INFO     | __main__:call_federated_train:181 - epoch  13, average loss 0.848
+2020-12-20 15:09:12.138 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 13/20
+2020-12-20 15:09:12.138 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 13/20; time cost: 1:39:47.067776
+
+2020-12-20 15:09:12.138 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 14/20
+2020-12-20 15:09:12.406 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 15:09:12.407 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 15:19:13.046 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 15:29:13.648 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 15:39:14.299 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 15:49:14.942 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 15:59:15.654 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 16:09:16.346 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 16:19:17.005 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 16:29:17.689 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 16:39:18.396 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 16:45:56.146 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 16:48:21.076 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 16:48:22.607 | INFO     | __main__:call_federated_train:181 - epoch  14, average loss 0.822
+2020-12-20 16:48:22.608 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 14/20
+2020-12-20 16:48:22.609 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 14/20; time cost: 1:39:10.470261
+
+2020-12-20 16:48:22.609 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 15/20
+2020-12-20 16:48:22.885 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 16:48:22.886 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 16:58:23.577 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 17:08:24.295 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 17:18:24.980 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 17:28:25.819 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 17:38:26.548 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 17:48:27.264 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 17:58:27.935 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 18:08:28.702 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 18:18:29.390 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 18:25:47.450 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 18:27:50.216 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 18:27:52.310 | INFO     | __main__:call_federated_train:181 - epoch  15, average loss 0.791
+2020-12-20 18:27:52.311 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 15/20
+2020-12-20 18:27:52.311 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 15/20; time cost: 1:39:29.702072
+
+2020-12-20 18:27:52.312 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 16/20
+2020-12-20 18:27:52.559 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 18:27:52.560 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 18:37:53.315 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 18:47:54.031 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 18:57:54.765 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 19:07:55.494 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 19:17:56.298 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 19:27:56.994 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 19:37:57.745 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 19:47:58.471 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 19:57:59.277 | INFO     | __main__:call_async_request:107 - async request for 5400 times, 90 minutes, not finished!
+2020-12-20 20:03:45.517 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 20:05:44.438 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 20:05:45.176 | INFO     | __main__:call_federated_train:181 - epoch  16, average loss 0.750
+2020-12-20 20:05:45.177 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 16/20
+2020-12-20 20:05:45.177 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 16/20; time cost: 1:37:52.865304
+
+2020-12-20 20:05:45.177 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 17/20
+2020-12-20 20:05:45.503 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 20:05:45.505 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 20:15:46.109 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 20:25:46.771 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 20:35:47.471 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 20:45:48.135 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 20:55:48.826 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 21:05:49.577 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 21:15:50.283 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 21:25:51.064 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 21:31:05.795 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 21:33:22.592 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 21:33:23.078 | INFO     | __main__:call_federated_train:181 - epoch  17, average loss 0.737
+2020-12-20 21:33:23.079 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 17/20
+2020-12-20 21:33:23.080 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 17/20; time cost: 1:27:37.902154
+
+2020-12-20 21:33:23.080 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 18/20
+2020-12-20 21:33:23.311 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 21:33:23.312 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 21:43:24.066 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 21:53:24.711 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 22:03:25.342 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 22:13:25.966 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 22:23:26.660 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-20 22:33:27.279 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-20 22:43:28.129 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-20 22:53:28.847 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-20 22:59:01.271 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 23:01:05.449 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-20 23:01:06.924 | INFO     | __main__:call_federated_train:181 - epoch  18, average loss 0.712
+2020-12-20 23:01:06.926 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 18/20
+2020-12-20 23:01:06.926 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 18/20; time cost: 1:27:43.845619
+
+2020-12-20 23:01:06.926 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 19/20
+2020-12-20 23:01:07.189 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-20 23:01:07.189 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-20 23:11:07.825 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-20 23:21:08.508 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-20 23:31:09.183 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-20 23:41:09.806 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-20 23:51:10.444 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-21 00:01:11.099 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-21 00:11:11.788 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-21 00:21:12.517 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-21 00:25:49.429 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-21 00:28:19.787 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-21 00:28:20.376 | INFO     | __main__:call_federated_train:181 - epoch  19, average loss 0.689
+2020-12-21 00:28:20.377 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 19/20
+2020-12-21 00:28:20.377 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 19/20; time cost: 1:27:13.450806
+
+2020-12-21 00:28:20.377 | INFO     | utils.tool_utils:timer:35 - Start executing step: train for epoch 20/20
+2020-12-21 00:28:20.607 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_train
+2020-12-21 00:28:20.608 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_train
+2020-12-21 00:38:21.245 | INFO     | __main__:call_async_request:107 - async request for 600 times, 10 minutes, not finished!
+2020-12-21 00:48:21.981 | INFO     | __main__:call_async_request:107 - async request for 1200 times, 20 minutes, not finished!
+2020-12-21 00:58:22.686 | INFO     | __main__:call_async_request:107 - async request for 1800 times, 30 minutes, not finished!
+2020-12-21 01:08:23.458 | INFO     | __main__:call_async_request:107 - async request for 2400 times, 40 minutes, not finished!
+2020-12-21 01:18:24.235 | INFO     | __main__:call_async_request:107 - async request for 3000 times, 50 minutes, not finished!
+2020-12-21 01:28:24.937 | INFO     | __main__:call_async_request:107 - async request for 3600 times, 60 minutes, not finished!
+2020-12-21 01:38:25.665 | INFO     | __main__:call_async_request:107 - async request for 4200 times, 70 minutes, not finished!
+2020-12-21 01:48:26.376 | INFO     | __main__:call_async_request:107 - async request for 4800 times, 80 minutes, not finished!
+2020-12-21 01:53:15.927 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-21 01:55:21.390 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_train, msg: request succeeded!, response has been already stored in memory!
+2020-12-21 01:55:22.192 | INFO     | __main__:call_federated_train:181 - epoch  20, average loss 0.670
+2020-12-21 01:55:22.193 | INFO     | utils.tool_utils:timer:39 - Finished executing step: train for epoch 20/20
+2020-12-21 01:55:22.194 | INFO     | utils.tool_utils:timer:48 - Step name: train for epoch 20/20; time cost: 1:27:01.816141
+
+2020-12-21 01:55:22.194 | INFO     | __main__:call_federated_train:190 - best train loss: 0.6702423664114341
+2020-12-21 01:55:22.194 | INFO     | __main__:call_federated_train:191 - best epoch: 20
+2020-12-21 01:55:22.383 | INFO     | utils.tool_utils:timer:39 - Finished executing step: call federated train
+2020-12-21 01:55:22.383 | INFO     | utils.tool_utils:timer:48 - Step name: call federated train; time cost: 1 day, 8:21:55.134436
+
+2020-12-21 01:55:22.403 | INFO     | utils.tool_utils:timer:35 - Start executing step: call federated test
+2020-12-21 01:55:22.696 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_test
+2020-12-21 01:55:22.698 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_test
+2020-12-21 01:59:46.491 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_test, msg: request succeeded!, response has been already stored in memory!
+2020-12-21 01:59:47.253 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_test, msg: request succeeded!, response has been already stored in memory!
+2020-12-21 01:59:47.253 | INFO     | utils.tool_utils:timer:39 - Finished executing step: call federated test
+2020-12-21 01:59:47.254 | INFO     | utils.tool_utils:timer:48 - Step name: call federated test; time cost: 0:04:24.850525
+
+2020-12-21 01:59:47.276 | INFO     | utils.tool_utils:timer:35 - Start executing step: call federated detect
+2020-12-21 01:59:47.540 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5004/federated_detect
+2020-12-21 01:59:47.541 | INFO     | http_request.async_request:request_func:33 - start to execute task name: http://127.0.0.1:5005/federated_detect
+2020-12-21 02:05:28.637 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5005/federated_detect, msg: request succeeded!, response has been already stored in memory!
+2020-12-21 02:05:29.796 | INFO     | http_request.async_request:callback_func:129 - task name: http://127.0.0.1:5004/federated_detect, msg: request succeeded!, response has been already stored in memory!
+2020-12-21 02:05:29.796 | INFO     | utils.tool_utils:timer:39 - Finished executing step: call federated detect
+2020-12-21 02:05:29.798 | INFO     | utils.tool_utils:timer:48 - Step name: call federated detect; time cost: 0:05:42.520372
+
